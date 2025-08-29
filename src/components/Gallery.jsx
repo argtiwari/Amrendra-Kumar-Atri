@@ -115,10 +115,10 @@ export default function Gallery() {
           <p className="text-lg text-gray-700 italic">
             “यह सिर्फ़ तस्वीरें नहीं, यह हमारे रिश्तों की कहानी है। जनता के हर दुख-सुख में हमेशा साथ।”{" "}
             <a
-              href="https://www.facebook.com/amrendra.atri/photos"
-              style={{ color: "blue", textDecoration: "underline" }}
-            >
-              और तस्वीरें
+              href="https://www.facebook.com/kriti.tiwary.169"
+              target="_blank" style={{ color: "#3b5998" } } className="font-semibold" text-decoration="underline" 
+              >
+              और तस्वीरें 
             </a>
           </p>
         </div>

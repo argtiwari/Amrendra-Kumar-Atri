@@ -760,7 +760,4 @@ export default function App() {
   </p>
 </footer>
 
-    </div>
-  );
-}
-import { ChevronLeft, ChevronRight } from "lucide-react";
+    </div>    )}
