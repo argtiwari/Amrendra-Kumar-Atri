@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ✅ Scroll overflow ka fix */
+html, body {
+  overflow-x: hidden;
+}
+
+
 body {
   font-family: Arial, sans-serif;
 }

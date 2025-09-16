@@ -1,11 +1,10 @@
-
-
 {
   "name": "mukhiya-website",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
+    "@vercel/analytics": "^1.5.0",
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.1",
     "framer-motion": "^12.23.12",
@@ -43,4 +42,3 @@
     ]
   }
 }
-

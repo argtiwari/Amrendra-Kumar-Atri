@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Star } from "lucide-react";
 
+import { Analytics } from "@vercel/analytics/react"
+
 import Gallery from "./components/Gallery";
 
 import { Card, CardContent } from "./components/ui/card";
