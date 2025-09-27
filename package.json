@@ -13,7 +13,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "sitemap": "^8.0.0",
     "swiper": "^11.2.10",
     "tailwind-variants": "^2.1.0"
   },
@@ -21,6 +20,7 @@
     "autoprefixer": "^10.4.19",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.39",
+    "sitemap": "^8.0.0",
     "tailwindcss": "^3.4.1"
   },
   "scripts": {
@@ -29,7 +29,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "generate-sitemap": "node generate-sitemap.js"
   },
   "browserslist": {
     "production": [
@@ -42,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+
+    
   }
+  
 }
+
+
